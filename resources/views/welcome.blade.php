@@ -1,33 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <title>PhotoCom</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  
-  <!-- Custom css for the mainPage.html -->
-  <link rel="stylesheet" href="/css/mainPage.css">
-  
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+@extends('layouts.app')
 
+@section('content')
 <!-- Container element -->
-<div class="parallax"></div> 
-
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">PhotoCom</a>
-            </div>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Page 1</a></li>
-                    <li><a href="#">Page 2</a></li>
-                    <li><a href="#">Page 3</a></li>
-                </ul>
-        </div>
-    </nav>
+<div class="parallax"></div>
     <style>
     .parallax {
         /* The image used */
@@ -61,6 +36,4 @@
     and directions. Users also have the option to cancel scheduled jobs. Users have the option to rate work once it’s 
     completed and write reviews which can be showcased on photographers’ and assistants’ profiles.
     </p></div>
-
-    
-</html>
+@endsection
